@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+}
+.row{
+    margin: auto 0;
+}
+.btn-group-lg>.btn, .btn-lg{
+    border-radius: 0px;
+    height: 150px;
+}
+.btn{
+    border-radius: 0px;
+    vertical-align: middle;
+}
+.glyphicon{
+    font-size: 4rem;
+    margin: 15px 0;
+}
+.buttons{
+    margin-top: 30px;
+}

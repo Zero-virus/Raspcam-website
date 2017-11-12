@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Bienvenido al panel de estado</h1>
+  <h3>Selecciona qué cámara deseas monitorear</h3>
+  <div class="col-md-3 col-xs-12 buttons">
+    <nav>
+      <a routerLink="/state" class="btn btn-danger btn-lg col-xs-6 col-md-12" role="button"><span class="glyphicon glyphicon-facetime-video"></span> <br/>Cámara1</a>
+      <a routerLink="/state2" class="btn btn-warning btn-lg col-xs-6 col-md-12" role="button"><span class="glyphicon glyphicon-facetime-video"></span> <br/>Cámara2</a>
+      <a routerLink="/state3" class="btn btn-primary btn-lg col-xs-6 col-md-12" role="button"><span class="glyphicon glyphicon-facetime-video"></span> <br/>Cámara3</a>
+      <a routerLink="/state4" class="btn btn-info btn-lg col-xs-6 col-md-12" role="button"><span class="glyphicon glyphicon-facetime-video"></span> <br/>Cámara4</a>
+    </nav>
+  </div>
+  <div class="col-md-9 col-xs-12">
+    <router-outlet></router-outlet>
+  </div>
+</div>
